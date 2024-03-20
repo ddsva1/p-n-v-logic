@@ -1,0 +1,10 @@
+docker run -i -t ubuntu:latest /bin/bash
+
+
+
+
+to make network: docker network create --driver bridge test_network
+docker run -itd --name container1 --network test_network ubuntu:latest
+docker exec -it container1 /bin/bash
+apt update
+apt install -y iputils-ping
