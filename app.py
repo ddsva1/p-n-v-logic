@@ -1,4 +1,4 @@
-#adapted from https://www.youtube.com/watch?v=PXo3AAquPy0
+#from https://www.youtube.com/watch?v=PXo3AAquPy0 - not done obv
 from flask import flask
 from flask_restful import Resource, Api
 app = Flask(__name__)
